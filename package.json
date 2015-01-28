@@ -1,0 +1,15 @@
+{
+  "name": "gulp-wrapper",
+  "version": "0.1.0",
+  "description": "gulp plugin for wrapping your customize function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuan Hsiang Cheng <lyforever62@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.2",
+    "through2": "^0.6.3"
+  }
+}
