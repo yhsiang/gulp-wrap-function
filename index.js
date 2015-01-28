@@ -3,9 +3,9 @@
 var gutil = require('gulp-util');
 var through = require('through2');
 
-module.exports = wrapperPlugin;
+module.exports = wrapPlugin;
 
-function wrapperPlugin(fn) {
+function wrapPlugin(fn) {
   return through.obj(objectStream);
 
   function objectStream(file, enc, cb) {
@@ -40,5 +40,5 @@ function wrapperPlugin(fn) {
 }
 
 function pluginError(msg) {
-  return new gutil.PluginError('error', 'gulp-wrapper: ' + msg);
+  return new gutil.PluginError('error', 'gulp-wrap-function: ' + msg);
 }

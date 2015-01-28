@@ -1,16 +1,16 @@
-#gulp-wrapper
+#gulp-wrap-function
 
 Gulp plugin for wrapping your customize function and process your file content directly.
 
 ##Installation
 
-    % npm install gulp-wrap
+    % npm install gulp-wrap-function
 
 ##Usage
 
 Example 1: replace all newlines.
 ```
-var wrap = require("gulp-wrapper");
+var wrap = require("gulp-wrap-function");
 
 gulp.src("file.html")
   .pipe(wrap(function(file) {
@@ -21,7 +21,7 @@ gulp.src("file.html")
 
 Example 2: split and remain second one.
 ```
-var wrap = require("gulp-wrapper");
+var wrap = require("gulp-wrap-function");
 
 gulp.src("file.html")
   .pipe(wrap(function(file) {

@@ -1,5 +1,5 @@
 {
-  "name": "gulp-wrapper",
+  "name": "gulp-wrap-function",
   "version": "0.1.0",
   "description": "gulp plugin for wrapping your customize function",
   "main": "index.js",
