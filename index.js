@@ -27,7 +27,7 @@ function wrapPlugin(fn) {
 
     try {
       var contents = file.contents.toString();
-      file.contents = new Buffer(wrapIt(fn(contents)));
+      file.contents = new Buffer(fn(contents));
     } catch (err) {
       err.fileName = file.path;
       that.emit('error', pluginError(err));
